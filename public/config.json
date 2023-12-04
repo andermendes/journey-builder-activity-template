@@ -13,42 +13,6 @@
           "step1Label": "Configure Activity"
         }
     },
-    "arguments": {
-        "execute": {
-           "inArguments":[],
-          "outArguments": [],
-          "url": "https://journeybuildercustomactivity-6b0902836cb6.herokuapp.com/journeybuilder/execute",
-           "verb": "POST",
-            "body": "",
-            "header": "",
-            "format": "json",
-            "useJwt": true,
-            "timeout": 10000
-        }
-    },
-    "configurationArguments": {
-      "applicationExtensionKey": "d77f3cd8-681a-4f78-85af-e99ce4dded0d",
-      "save": {
-        "url": "https://journeybuildercustomactivity-6b0902836cb6.herokuapp.com/journeybuilder/save",
-          "verb": "POST",
-        "useJwt": true
-       },
-       "publish": {
-        "url": "https://journeybuildercustomactivity-6b0902836cb6.herokuapp.com/journeybuilder/publish",
-           "verb": "POST",
-        "useJwt": true
-       },
-      "stop": {
-        "url": "hhttps://journeybuildercustomactivity-6b0902836cb6.herokuapp.com/journeybuilder/stop",
-           "verb": "POST",
-        "useJwt": true
-      },
-      "validate": {
-        "url": "https://journeybuildercustomactivity-6b0902836cb6.herokuapp.com/journeybuilder/validate",
-        "verb": "POST",
-        "useJwt": true
-      }
-    },
     "wizardSteps": [
         { "label": "Configure Activity", "key": "step1" }
     ],
@@ -59,12 +23,4 @@
           "fullscreen": false
         }
     },
-    "schema": {
-        "arguments": {
-            "execute": {
-                "inArguments": [],
-                "outArguments": []
-            }
-        }
-    }
 }
